@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Anuphan:wght@200&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+.link-pindah-kedetail {
+    color: black;
+    text-decoration: none;
+}
+
+.bg-hitam-opacity {
+    background-color: #e98649c6 !important;
+}
+
+.bg-cream {
+    background-color: #FDF2E9 !important;
+}
+
+.bg-putih {
+    background-color: white !important;
+}
+
+.text-oranye {
+    color: #E98649 !important;
+}
+
+.bg-oranye {
+    background-color: #E98649 !important;
+}
+
+.icon-login {
+    width: 28px;
+}
+
+.garis-hitam {
+    height: 2px;
+    border-width: 0;
+    color: black;
+    background-color: black;
+}
+
+.kartu-login {
+    border-right: 5px solid #333333;
+    border-bottom: 5px solid #333333;
+}
+
+
+/* components>navbar sebelum login */
+
+.nav-cari {
+    border-radius: 80px !important;
+    font-size: 36px;
+}
+
+.btn-login {
+    border-radius: 40px !important;
+}
+
+
+/* pagination */
+
+.page-item .page-link {
+    z-index: 3;
+    color: #E98649 !important;
+    background-color: #ffffff !important;
+    border: solid #E98649;
+    margin: 3px;
+}
+
+.page-item .page-link:hover {
+    color: #E98649 !important;
+    background-color: rgb(202, 201, 201) !important;
+    border: solid #E98649;
+    font-weight: bold;
+}
+
+.page-item.active .page-link {
+    border: solid orange;
+    color: white !important;
+    background-color: #E98649 !important;
+}
+
+.page-link {
+    border-radius: 100px;
+}
+
+
+/* card-artikel */
+
+.card-text-scroll {
+    height: 80px;
+    overflow: scroll;
+}
+
+
+/* nav tab di profile */
+
+.nav-tabs .nav-link {
+    color: #E98649 !important;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+}
+
+.nav-tabs .nav-link.active {
+    border-bottom: solid 4px #E98649 !important;
+}
+
+.forminput {
+    display: flex;
+    width: 25%;
+    justify-content: center;
+    margin-left: 8%;
+}
+
+.inputbutton {
+    border: 1px solid #f7f7f7;
+    padding: 10px;
+    font-size: 16px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.form-control {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 400px;
+    border-radius: 25px;
+}
+
+.btn {
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    cursor: pointer;
+}
